@@ -15,6 +15,19 @@ a {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+	font-size: 3.6rem;
+	color: var(--color-black);
+}
+
+.circle {
+	position: relative;
+	height: 63px;
+	width: 63px;
+	background-color: var(--color-redish);
+	border-radius: 50%;
+}
+
 :root {
 	--color-primary: #08a6e4;
 	--color-primary-shadow: rgba(7, 172, 230, 0.16);
@@ -114,4 +127,62 @@ a {
 	font-size: 1.6rem;
 	padding: 22px 157px;
 	font-weight: 700;
+}
+
+.opening__img-box {
+	display: flex;
+	justify-content: center;
+}
+
+/* Section sales  */
+
+.sales {
+	padding: 100px 0 122px 0;
+	text-align: center;
+}
+
+.sales__cards-container {
+	padding-top: 101px;
+	display: flex;
+	justify-content: center;
+	gap: 184px;
+}
+
+.sales__card {
+	text-align: center;
+	/* position: relative; */
+	/* border: 2px solid black; */
+}
+
+.circle--red {
+	margin-left: 22px;
+}
+
+.circle--blue {
+	margin: 0 56px 0 57px;
+
+	background-color: var(--color-primary);
+}
+
+.sales__person-icon {
+	position: absolute;
+	top: 3px;
+}
+.sales__eye-icon {
+	position: absolute;
+	top: 14px;
+	left: 22px;
+}
+
+.sales__card-number {
+	font-size: 2rem;
+	font-weight: 800;
+	letter-spacing: 5.96px;
+	padding: 15px 0 19px 0;
+}
+
+.sales__card-text {
+	font-size: 1.7rem;
+	color: var(--color-grey);
+	font-family: 'Raleway', sans-serif;
 }
