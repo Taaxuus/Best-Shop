@@ -21,7 +21,6 @@ h2 {
 }
 
 .circle {
-	position: relative;
 	height: 63px;
 	width: 63px;
 	background-color: var(--color-redish);
@@ -149,41 +148,57 @@ h2 {
 }
 
 .sales__card {
+	position: relative;
+	max-width: 176px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
 
 .circle--red {
-	margin-left: 22px;
+	position: absolute;
+	left: 22px;
 }
 
 .circle--blue {
-	margin: 0 56px 0 57px;
-
+	position: absolute;
 	background-color: var(--color-primary);
+}
+
+.circle--green {
+	position: absolute;
+	background-color: var(--color-green);
 }
 
 .sales__person-icon {
 	position: absolute;
 	top: 3px;
+	left: 52px;
 }
 .sales__eye-icon {
 	position: absolute;
 	top: 14px;
-	left: 22px;
+	left: 78px;
+}
+
+.sales__catalog-icon {
+	position: absolute;
+	top: 6px;
+	left: 82px;
 }
 
 .sales__card-number {
 	font-size: 2rem;
 	font-weight: 800;
 	letter-spacing: 5.96px;
-	padding: 15px 0 19px 0;
+	padding: 76px 0 19px 0;
+	font-family: 'Raleway', sans-serif;
 }
 
 .sales__card-text {
 	font-size: 1.6rem;
 	color: var(--color-grey);
 	font-family: 'Raleway', sans-serif;
+	max-width: 176px;
+	padding: 0 16px;
 }
