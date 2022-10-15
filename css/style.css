@@ -227,6 +227,9 @@ h2 {
 	display: flex;
 }
 
+.marketing__card-title {
+	max-width: 300px;
+}
 .mackbook-card {
 	gap: 169px;
 	padding: 38px 71px 38px 35px;
@@ -278,8 +281,8 @@ h2 {
 
 .circle-back {
 	position: absolute;
-	left: 30px;
-	bottom: 39px;
+	left: 0px;
+	bottom: 30px;
 	width: 320px;
 	height: 320px;
 	border-radius: 50%;
@@ -298,6 +301,35 @@ h2 {
 	padding: 29px 20px 13px 70px;
 }
 
-.marketing__card-title {
-	max-width: 300px;
+.brand-card {
+	padding: 69px 34px 70px 35px;
+	max-width: 623px;
+}
+
+.brand-title {
+	max-width: 400px;
+}
+
+.brand-text {
+	padding: 0;
+}
+
+.green--line {
+	background-color: var(--color-green);
+}
+
+.marketing__brand-container {
+	display: flex;
+	gap: 61px;
+}
+
+.brand__trumpet--photo {
+	max-width: 440px;
+	background-color: var(--color-green);
+	padding: 98px 81px 64px 62px;
+}
+
+.trumpet-img {
+	height: 207px;
+	width: 295px;
 }
