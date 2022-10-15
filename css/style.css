@@ -30,6 +30,11 @@ h2 {
 	color: var(--color-black);
 }
 
+h3 {
+	color: var(--color-black);
+	font-size: 2rem;
+}
+
 .circle {
 	position: relative;
 	height: 63px;
@@ -39,8 +44,8 @@ h2 {
 }
 
 .container {
-	width: 1352px;
 	margin: 0px auto;
+	width: 1352px;
 }
 
 .btn {
@@ -332,4 +337,95 @@ h2 {
 .trumpet-img {
 	height: 207px;
 	width: 295px;
+}
+
+/* PRICING SECTION  */
+
+.pricing {
+	padding: 100px 180px 155px 180px;
+}
+
+.pricing__cards-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 58px;
+}
+
+.pricing__title {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.pricing__card-title {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.pricing__card--small {
+	position: relative;
+	width: 372px;
+	border-radius: 18px;
+	text-align: center;
+	padding: 34px 0 81px 0;
+	border: 1px solid var(--color-redish);
+	margin-top: 21px;
+}
+
+.pricing__price {
+	font-size: 4.6rem;
+	font-weight: 300;
+}
+
+.price--red {
+	padding: 14px 0 69px 0;
+	color: var(--color-redish);
+}
+
+.option-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	font-size: 1.4rem;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color: var(--color-black);
+}
+.checkmark-icon {
+	margin-right: 10px;
+}
+
+.price__btn {
+	position: absolute;
+	left: 50%;
+	bottom: -45px;
+	transform: translate(-50%, -50%);
+	font-size: 1.3rem;
+	padding: 16px 57px;
+	background-color: var(--color-redish);
+}
+
+.pricing__card--big {
+	position: relative;
+	width: 405px;
+	border-radius: 18px;
+	text-align: center;
+	padding: 34px 0 81px 0;
+	border: 1px solid var(--color-primary);
+}
+
+.price--blue {
+	font-size: 4.6rem;
+	font-weight: 300;
+	padding: 14px 0 5px 0;
+	color: var(--color-primary);
+}
+
+.pricing__price-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.price__text-blue {
+	padding-bottom: 61px;
 }
